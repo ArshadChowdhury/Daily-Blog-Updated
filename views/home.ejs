@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%>
+
+  <h1>Hello</h1>
+  <p><%= startingContent %></p>
+  <p>
+    This is a blog posting website made with Node.js and Mongoose. To use it you
+    can click on compose blog to the top right corner and compose a blog of your
+    own. <br />
+    Later it'll get added in this home page but it will show only 100 characters
+    of the blog, to see all of it click on read more and then that will open the
+    full blog in another window. <br />
+    It can be an existing blog or a new one that you've added just now, that'll
+    be displayed here too. It'll create a separate page for each new post
+    automatically.
+  </p>
+
+  <% posts.forEach(function(post){ %>
+
+  <h1><%=post.title%></h1>
+  <p>
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+  </p>
+
+  <% }) %>
+</div>
+
+<%- include("partials/footer"); -%>
