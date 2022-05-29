@@ -2,7 +2,7 @@
 ## This daily blog app is to make daily blogs of me.
 ### live site url - https://dailyblogbyarshad.herokuapp.com/
 
-### It takes a post from user and saves it in the Database using MongoDB and render it back instantly.<br>
+### It takes a post from user and saves it in the Database using MongoDB and render it back instantly. <br>
 ### Then it shortens the whole text in 100 words or less and add a read more option, when read more is clicked it creates a separate page and render the whole thing.
 
 ## here is a little preview of the app -
