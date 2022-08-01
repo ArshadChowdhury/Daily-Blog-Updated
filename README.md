@@ -1,5 +1,5 @@
 # Daily-Blog App
-## This daily blog app is to make daily blogs of me although I don't use it that much
+## This daily blog app is to make daily blogs of me although I don't use it that much now a days
 ### live site url - https://dailyblogbyarshad.herokuapp.com/
 
 ### It takes the post from user and saves it in the Database using MongoDB and render it back instantly. Check it out yourself <br>
